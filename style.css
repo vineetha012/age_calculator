@@ -1,0 +1,77 @@
+body {
+    padding: 50px;
+    background-color: rgb(21, 100, 134);
+}
+
+main {
+    border: 1px solid gray;
+    width: 800;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+form {
+
+    height: 100%;
+    padding-left: 50px;
+    background-color: gainsboro;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family:sans-serif ;
+    color: rgb(22, 130, 189);
+}
+input{
+    margin-top: 10px;
+}
+
+.inpt-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.btn{
+    margin-top: 30px;
+    align-items: center;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(18, 155, 214);
+    padding: 10px;
+    color: white;
+    font-family:sans-serif ;
+    margin-left: 45%;
+}
+.result {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+#result{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family:sans-serif ;
+    color: rgb(27, 146, 179);
+}
